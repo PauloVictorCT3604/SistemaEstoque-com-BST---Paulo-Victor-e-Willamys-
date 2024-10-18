@@ -51,8 +51,8 @@ A função `deletarProduto` remove um nó (produto) da árvore BST. Existem trê
 
 ## Idealizadores 
 
-Paulo Victor Bezerra Brito
-Willamys Carneiro
+- Paulo Victor Bezerra Brito
+- Willamys Carneiro
    gcc -o sistema_estoque sistema_estoque.c
 
 ## Link Apresentação em Slides
