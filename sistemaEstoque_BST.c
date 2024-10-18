@@ -169,6 +169,9 @@ int main() {
             case 2:
                 printf("Codigo do produto a ser buscado: ");
                 scanf("%d", &cod);
+                produto* encontrado = buscarProduto(estoque, cod);
+                imprimirProduto(encontrado);
+                break;
             case 3:
                 printf("Produtos no estoque:\n");
                 imprimirProdutosEmOrdem(estoque);
